@@ -1,5 +1,6 @@
-describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
-  })
-})
+describe("This is my first cypress test", () => {
+  it("should have a title", () => {
+      cy.visit("https://www.google.com/");
+      cy.title().should("eq", "Google");
+  });
+});
