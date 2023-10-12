@@ -3,7 +3,7 @@ describe("Logg in feature", () => {
         cy.visit("https://www.demoblaze.com/index.html");
         cy.get("#login2").click();
         cy.get("#loginusername").type("Dimaria");
-        cy.wait(5500)
+        //cy.wait(5500)
         cy.get("#loginpassword").type("dada");
         cy.get(".btn-primary").contains("Log in").click();
   
