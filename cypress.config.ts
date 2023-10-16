@@ -44,7 +44,7 @@ module.exports = defineConfig({
       gender: "Male",
       dateOfBirth: "8 7 2004",
       mobileNumber: "3128900823",
-      hobbies: ["Music", "Video games"],
+      hobbies: ["Music", "Reading"],
       currentAddress: "Calle 50 #2d-10",
 
     },
