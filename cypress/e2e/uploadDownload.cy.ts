@@ -1,5 +1,5 @@
-import UploadFilePage from "../pages/uploadFilePage";
-import DownloadFilePage from "../pages/downloadPage";
+import UploadFilePage from "../page/uploadFilePage";
+import DownloadFilePage from "../page/downloadPage";
 
 const uploadFilePage = new UploadFilePage();
 const downloadFilePage = new DownloadFilePage()

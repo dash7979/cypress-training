@@ -1,4 +1,4 @@
-import { LoginPage,ProductPage,CartPage,MessagePage } from "../pages";
+import { LoginPage,ProductPage,CartPage} from "../page";
 
 const loginPage = new LoginPage();
 const productPage = new ProductPage();

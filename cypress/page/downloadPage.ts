@@ -1,4 +1,4 @@
-import { downloaderLocators} from "../support/demoQaLocators";
+import { downloaderLocators} from "../support/demoQALocators";
 
 const fForm = Cypress.env("fillFormDemoQA");
 const path = require("path");

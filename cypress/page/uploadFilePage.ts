@@ -1,4 +1,4 @@
-import { fileUploaderLocators } from "../support/fileUploaderLocators";
+import { fileUploaderLocators } from "../support/fileLocators";
 
 class UploadFilePage{
     constructor() {

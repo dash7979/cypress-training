@@ -1,4 +1,4 @@
-import { iframe } from "../support/w3schoolLocators";
+import { iframe } from "../support/W3Locators";
 
 const w3schoolUrl = Cypress.env("w3school")
 
