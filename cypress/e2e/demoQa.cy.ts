@@ -1,4 +1,4 @@
-import { FillFormPage } from "../pages/fillDemoQA";
+import { FillFormPage } from "../page/fillDemoQA";
 
 const fForm = new FillFormPage();
 
