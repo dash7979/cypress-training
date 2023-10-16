@@ -8,7 +8,7 @@ class DownloadFilePage{
     }
 
     verifyDowload(){
-        cy.visit(fForm.demoUrl +"uploadDownload")
+        cy.visit(fForm.demoUrl +"upload-download")
         cy.get(downloaderLocators.download).contains("Download").click();
     }
     
