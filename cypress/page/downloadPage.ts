@@ -1,6 +1,6 @@
 import { downloaderLocators} from "../support/demoQALocators";
 
-const fForm = Cypress.env("fillFormDemoQA");
+const fForm = Cypress.env("fillDemoQA");
 const path = require("path");
 
 class DownloadFilePage{
@@ -8,7 +8,7 @@ class DownloadFilePage{
     }
 
     verifyDowload(){
-        cy.visit(fForm.demoUrl +"upload-download")
+        cy.visit(fForm.demoUrl +"uploadDownload")
         cy.get(downloaderLocators.download).contains("Download").click();
     }
     
