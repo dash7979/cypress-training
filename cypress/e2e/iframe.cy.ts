@@ -1,4 +1,4 @@
-import IframePage from "../pages/iframePage";
+import IframePage from "../page/iframePage";
 
 const iframePage = new IframePage();
 
